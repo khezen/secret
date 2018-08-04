@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	// NonceSizeGCM 12/96 bytes/bits - is the size of the initialization vector for AES GCM
+	// NonceSizeGCM 12bytes/96bits - is the size of the initialization vector for AES GCM
 	NonceSizeGCM = 12
 )
 
