@@ -15,8 +15,8 @@ func TestAESGCM(t *testing.T) {
 	cases := []struct {
 		plainbytes []byte
 	}{
-		{[]byte("l'oeuf existe depuis plus longtemps que la poule.")},
-		{[]byte("la poule existe depuis plus longtemps que l'oeuf.")},
+		{[]byte("Dude")},
+		{[]byte("Where's my car?")},
 	}
 	for _, testCase := range cases {
 		cipherbytes, err := CipherAESGCM(key, testCase.plainbytes)
